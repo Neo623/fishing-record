@@ -40,3 +40,355 @@ Migrating to CreateFavorites (20221012144150)
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:52:57 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1888.9ms | Allocations: 33917)
+Completed 500 Internal Server Error in 1974ms (ActiveRecord: 0.0ms | Allocations: 37476)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:53:50 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1050.4ms | Allocations: 9624)
+Completed 500 Internal Server Error in 1065ms (ActiveRecord: 0.0ms | Allocations: 12592)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:56:05 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 975.6ms | Allocations: 9614)
+Completed 500 Internal Server Error in 1001ms (ActiveRecord: 0.0ms | Allocations: 12582)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag    'application' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:57:20 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 914.1ms | Allocations: 9624)
+Completed 500 Internal Server Error in 929ms (ActiveRecord: 0.0ms | Allocations: 12592)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:57:24 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 1022.8ms | Allocations: 5255)
+Completed 500 Internal Server Error in 1026ms (ActiveRecord: 0.0ms | Allocations: 5649)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:57:59 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 947.5ms | Allocations: 5210)
+Completed 500 Internal Server Error in 951ms (Allocations: 5673)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com
+Started GET "/" for 119.228.127.58 at 2022-10-18 13:59:27 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 240)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.18
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+warning ../../package.json: No license field
+warning ../../package.json: No license field
+error Command "webpack" not found.
+
+  Rendered layout layouts/application.html.erb (Duration: 916.7ms | Allocations: 9624)
+Completed 500 Internal Server Error in 932ms (ActiveRecord: 0.0ms | Allocations: 12592)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/ec2-user/environment/fishing-record/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:02:20 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.6ms | Allocations: 240)
+[Webpacker] Compiling...
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:02:25 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/ec2-user/environment/fishing-record/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: 4949f615883aa45838a7
+Version: webpack 4.46.0
+Time: 4436ms
+Built at: 10/18/2022 2:02:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 7139.1ms | Allocations: 14794)
+Completed 200 OK in 7158ms (Views: 7146.8ms | ActiveRecord: 0.0ms | Allocations: 17788)
+
+
+[Webpacker] Compiled all packs in /home/ec2-user/environment/fishing-record/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: 4949f615883aa45838a7
+Version: webpack 4.46.0
+Time: 1612ms
+Built at: 10/18/2022 2:02:30 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-19ade39cc333985062bf.js    125 KiB  application  [emitted] [immutable]  application
+js/application-19ade39cc333985062bf.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-19ade39cc333985062bf.js js/application-19ade39cc333985062bf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 5513.6ms | Allocations: 6906)
+Completed 200 OK in 5521ms (Views: 5520.6ms | ActiveRecord: 0.0ms | Allocations: 7237)
+
+
