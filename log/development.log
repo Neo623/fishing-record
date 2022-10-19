@@ -392,3 +392,275 @@ Entrypoint application = js/application-19ade39cc333985062bf.js js/application-1
 Completed 200 OK in 5521ms (Views: 5520.6ms | ActiveRecord: 0.0ms | Allocations: 7237)
 
 
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:50:52 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (13.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 18.5ms | Allocations: 403)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 2570)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms | Allocations: 7112)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <%= link_to  "nagano_cake", root_path  %>
+            <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="d-flex align-items-center mr-5">
+                ようこそ、<%#= current_customer.last_name %>さん！
+              </li>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:              <%= link_to  "nagano_cake", root_path  %>
+18:                <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+19:              <ul class = "navbar-nav ml-auto m-3">
+20:                <% if user_signed_in? %>
+21:                  <li class="d-flex align-items-center mr-5">
+22:                    ようこそ、<%#= current_customer.last_name %>さん！
+23:                  </li>
+24:                  <li class="mr-3">
+25:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+26:                  </li>
+27:                  <li class="mr-3">
+28:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+29:                  </li>
+30:                  <li class="mr-3">
+31:                    <%= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+32:                  </li>
+33:                  <li class="mr-3">
+34:                    <%= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+35:                  </li>
+36:                  <li class="mr-3">
+37:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+38:                  </li>
+39:            </div>
+40:          </nav>
+41:        </header>
+42:    
+43:        <main>
+44:          <%= yield %>
+45:        </main>
+46:    
+47:    </html>
+  
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:50: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:53:48 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 8536)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms | Allocations: 9874)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"posts"}, missing required keys: [:id]):
+    21:                 <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+    22:               </li>
+    23:               <li class="mr-3">
+    24:                 <%= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+    25:               </li>
+    26:               <li class="mr-3">
+    27:                 <%= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+  
+app/views/layouts/application.html.erb:24
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:08 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4692)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"posts"}, missing required keys: [:id]):
+    21:                 <%#= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+    22:               </li>
+    23:               <li class="mr-3">
+    24:                 <%= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+    25:               </li>
+    26:               <li class="mr-3">
+    27:                 <%= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+  
+app/views/layouts/application.html.erb:24
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:20 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 7250)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms | Allocations: 8493)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_customer_session_path' for #<ActionView::Base:0x00000007998138>
+Did you mean?  destroy_user_session_path
+               destroy_user_session_url):
+    24:                 <%#= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+    25:               </li>
+    26:               <li class="mr-3">
+    27:                 <%= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+    28:               </li>
+    29:               <li class="mr-3">
+    30:                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+  
+app/views/layouts/application.html.erb:27
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:33 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3830)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 5098)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:35 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 3424)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 3810)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:54 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3868)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5120)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:54:55 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3461)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3841)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:55:08 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4714)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 5998)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"posts"}, missing required keys: [:id]):
+    21:                 <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+    22:               </li>
+    23:               <li class="mr-3">
+    24:                 <%= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+    25:               </li>
+    26:               <li class="mr-3">
+    27:                 <%#= link_to "マイページ", destroy_customer_session_path, method: :delete, class: "btn btn-outline-dark" %>
+  
+app/views/layouts/application.html.erb:24
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:55:33 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3931)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 5190)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-18 14:55:36 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3518)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3898)
+
+
