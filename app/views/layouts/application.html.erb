@@ -14,6 +14,11 @@
     <header>
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="d-flex align-items-center mr-5">
+                こんにちは、<%= current_user.name %>さん！
+              </li>
               <li class="mr-3">
                 <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
               </li>
@@ -29,6 +34,11 @@
               <li class="mr-3">
                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
               </li>
+            <% else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+            <% end %>
         </div>
       </nav>
     </header>

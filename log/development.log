@@ -1358,3 +1358,1012 @@ Processing by HomesController#top as HTML
 Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 4982)
 
 
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:29:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 3597)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 3986)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:30:54 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 3588)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 3979)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:30:55 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 4565)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 4955)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:30:57 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4566)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 4954)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:30:59 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3650)
+Completed 200 OK in 15ms (Views: 13.6ms | Allocations: 4743)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:31:04 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 3600)
+Completed 200 OK in 14ms (Views: 13.8ms | Allocations: 4985)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:31:05 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3596)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 3985)
+
+
+Started DELETE "/users/sign_out" for 119.228.127.58 at 2022-10-19 14:31:06 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 754ms (Allocations: 97762)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:31:07 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3609)
+Completed 200 OK in 12ms (Views: 11.1ms | Allocations: 3998)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:31:13 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 3587)
+Completed 200 OK in 40ms (Views: 38.1ms | Allocations: 3977)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:31:14 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 4559)
+Completed 200 OK in 31ms (Views: 30.1ms | Allocations: 4949)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:31:15 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3597)
+Completed 200 OK in 12ms (Views: 11.8ms | Allocations: 3987)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:31:18 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4561)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4951)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:31:18 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3587)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 3999)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:31:19 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3596)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 4006)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:31:22 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3587)
+Completed 200 OK in 13ms (Views: 12.8ms | Allocations: 4958)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:31:22 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 4568)
+Completed 200 OK in 24ms (Views: 23.4ms | Allocations: 4958)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:31:23 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 4581)
+Completed 200 OK in 16ms (Views: 15.8ms | Allocations: 4969)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:39:37 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1558)
+Completed 500 Internal Server Error in 9ms (Allocations: 2859)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <%= link_to  "fishing-reload", root_path  %>
+            <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="d-flex align-items-center mr-5">
+                ようこそ、<%= current_user.name %>さん！
+              </li>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+            <% else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:              <%= link_to  "fishing-reload", root_path  %>
+18:                <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+19:              <ul class = "navbar-nav ml-auto m-3">
+20:                <% if user_signed_in? %>
+21:                  <li class="d-flex align-items-center mr-5">
+22:                    ようこそ、<%= current_user.name %>さん！
+23:                  </li>
+24:                  <li class="mr-3">
+25:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+26:                  </li>
+27:                  <li class="mr-3">
+28:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+29:                  </li>
+30:                  <li class="mr-3">
+31:                    <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+32:                  </li>
+33:                  <li class="mr-3">
+34:                    <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+35:                  </li>
+36:                  <li class="mr-3">
+37:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+38:                  </li>
+39:                <% else %>
+40:                  <li class="mr-3">
+41:                    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+42:                  </li>
+43:            </div>
+44:          </nav>
+45:        </header>
+46:    
+47:        <main>
+48:          <%= yield %>
+49:        </main>
+50:    
+51:    </html>
+  
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting end
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:40:03 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1484)
+Completed 500 Internal Server Error in 8ms (Allocations: 2784)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+              </li>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+            <% else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:                  </li>
+18:                  <li class="mr-3">
+19:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+20:                  </li>
+21:                  <li class="mr-3">
+22:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+23:                  </li>
+24:                  <li class="mr-3">
+25:                    <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+26:                  </li>
+27:                  <li class="mr-3">
+28:                    <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+29:                  </li>
+30:                  <li class="mr-3">
+31:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+32:                  </li>
+33:                <% else %>
+34:                  <li class="mr-3">
+35:                    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+36:                  </li>
+37:            </div>
+38:          </nav>
+39:        </header>
+40:    
+41:        <main>
+42:          <%= yield %>
+43:        </main>
+44:    
+45:    </html>
+  
+app/views/layouts/application.html.erb:33: else without rescue is useless
+app/views/layouts/application.html.erb:33: else without rescue is useless
+app/views/layouts/application.html.erb:33: else without rescue is useless
+app/views/layouts/application.html.erb:33: else without rescue is useless
+app/views/layouts/application.html.erb:33: else without rescue is useless
+app/views/layouts/application.html.erb:33: else without rescue is useless
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:40:45 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1540)
+Completed 500 Internal Server Error in 9ms (Allocations: 2840)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <%= link_to  "fishing-reload", root_path  %>
+            <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+            <% else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:              <%= link_to  "fishing-reload", root_path  %>
+18:                <%#= image_tag "alexandra-khudyntseva-hXqbSgOPjSI-unsplash", size: "50x50" %>
+19:              <ul class = "navbar-nav ml-auto m-3">
+20:                <% if user_signed_in? %>
+21:                  <li class="mr-3">
+22:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+23:                  </li>
+24:                  <li class="mr-3">
+25:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+26:                  </li>
+27:                  <li class="mr-3">
+28:                    <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+29:                  </li>
+30:                  <li class="mr-3">
+31:                    <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+32:                  </li>
+33:                  <li class="mr-3">
+34:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+35:                  </li>
+36:                <% else %>
+37:                  <li class="mr-3">
+38:                    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+39:                  </li>
+40:            </div>
+41:          </nav>
+42:        </header>
+43:    
+44:        <main>
+45:          <%= yield %>
+46:        </main>
+47:    
+48:    </html>
+  
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:51: syntax error, unexpected end-of-input, expecting end
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:41:41 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1505)
+Completed 500 Internal Server Error in 9ms (Allocations: 2805)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+            <% else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:              <ul class = "navbar-nav ml-auto m-3">
+18:                <% if user_signed_in? %>
+19:                  <li class="mr-3">
+20:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+21:                  </li>
+22:                  <li class="mr-3">
+23:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+24:                  </li>
+25:                  <li class="mr-3">
+26:                    <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+27:                  </li>
+28:                  <li class="mr-3">
+29:                    <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+30:                  </li>
+31:                  <li class="mr-3">
+32:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+33:                  </li>
+34:                <% else %>
+35:                  <li class="mr-3">
+36:                    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+37:                  </li>
+38:            </div>
+39:          </nav>
+40:        </header>
+41:    
+42:        <main>
+43:          <%= yield %>
+44:        </main>
+45:    
+46:    </html>
+  
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:41:57 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4106)
+Completed 200 OK in 17ms (Views: 14.0ms | Allocations: 5425)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:42:15 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3635)
+Completed 200 OK in 12ms (Views: 11.9ms | Allocations: 4023)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:42:18 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 676)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 4529)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 8086)
+Completed 200 OK in 96ms (Views: 47.3ms | ActiveRecord: 5.5ms | Allocations: 23027)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:42:27 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.4ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3732)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 4823)
+
+
+Started DELETE "/users/sign_out" for 119.228.127.58 at 2022-10-19 14:42:28 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 350)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:42:28 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 3635)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 4023)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:42:30 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1333)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 5944)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 6535)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:42:32 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 4618)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 5006)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:44:02 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1503)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>FishingRecord</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <ul class = "navbar-nav ml-auto m-3">
+            <% if user_signed_in? %>
+              <li class="mr-3">
+                <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+              </li>
+              <li class="mr-3">
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+              </li>
+            <%# else %>
+              <li class="mr-3">
+                <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+              </li>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>FishingRecord</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+10:        <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+11:      </head>
+12:    
+13:      <body>
+14:        <header>
+15:          <nav class="navbar navbar-expand-lg ">
+16:            <div class="container">
+17:              <ul class = "navbar-nav ml-auto m-3">
+18:                <% if user_signed_in? %>
+19:                  <li class="mr-3">
+20:                    <%= link_to "ホーム", root_path, class: "btn btn-outline-dark" %>
+21:                  </li>
+22:                  <li class="mr-3">
+23:                    <%= link_to "釣果情報", posts_path, class: "btn btn-outline-dark" %>
+24:                  </li>
+25:                  <li class="mr-3">
+26:                    <%= link_to "釣果投稿", new_post_path, class: "btn btn-outline-dark" %>
+27:                  </li>
+28:                  <li class="mr-3">
+29:                    <%= link_to "マイページ", my_page_path, class: "btn btn-outline-dark" %>
+30:                  </li>
+31:                  <li class="mr-3">
+32:                    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+33:                  </li>
+34:                <%# else %>
+35:                  <li class="mr-3">
+36:                    <%= link_to "ログイン", new_user_session_path, class: "btn btn-outline-dark" %>
+37:                  </li>
+38:            </div>
+39:          </nav>
+40:        </header>
+41:    
+42:        <main>
+43:          <%= yield %>
+44:        </main>
+45:    
+46:    </html>
+  
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+app/views/layouts/application.html.erb:49: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:44:38 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3976)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 5295)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:44:40 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 580)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2348)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 5798)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 8740)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:44:43 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 173)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1328)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 4770)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 5360)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:46:39 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 580)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2351)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 6211)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 8402)
+
+
+Started GET "/users/sign_up" for 119.228.127.58 at 2022-10-19 14:46:42 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 3.0ms | Allocations: 239)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 158)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2298)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 5706)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 7175)
+
+
+Started POST "/users" for 119.228.127.58 at 2022-10-19 14:46:52 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aa@aa", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (3.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aa@aa"], ["LIMIT", 1]]
+  [1m[36mUser Create (4.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "aa@aa"], ["encrypted_password", "$2a$12$v1TISvk1E.xQ3nKovsNFZu97rp5hUZ876/SHYGicJDapuPmVRgP.S"], ["created_at", "2022-10-19 14:46:53.027987"], ["updated_at", "2022-10-19 14:46:53.027987"]]
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 371ms (ActiveRecord: 12.7ms | Allocations: 11306)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:46:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:18
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 4690)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 5784)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:46:59 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:18
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4465)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.1ms | Allocations: 4859)
+
+
+Started DELETE "/users/sign_out" for 119.228.127.58 at 2022-10-19 14:47:31 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 24ms (ActiveRecord: 0.1ms | Allocations: 7265)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:47:32 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3498)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 3883)
+
+
+Started GET "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:47:34 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 173)
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2313)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5761)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 6351)
+
+
+Started POST "/users/sign_in" for 119.228.127.58 at 2022-10-19 14:47:49 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aa@aa", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aa@aa"], ["LIMIT", 1]]
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 326ms (ActiveRecord: 0.2ms | Allocations: 2985)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:47:50 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:18
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 4483)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.2ms | Allocations: 4873)
+
+
