@@ -664,3 +664,697 @@ Processing by HomesController#top as HTML
 Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3898)
 
 
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:45:55 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 2.8ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 60.8ms | Allocations: 7862)
+Completed 200 OK in 87ms (Views: 67.5ms | ActiveRecord: 0.0ms | Allocations: 10854)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:46:04 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3520)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3907)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:06 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3590)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 4652)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:06 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3511)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 3895)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:07 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 3509)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:07 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3510)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:08 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3510)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:08 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3509)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:46:13 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3550)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 3931)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:15 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 3511)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:46:15 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3509)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:51 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3509)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 3890)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:52 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 3510)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:52 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3509)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3509)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3509)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3509)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3509)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:53 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3509)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:54 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3509)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:48:55 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3518)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 4858)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:48:57 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3510)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3892)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:49:01 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3509)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:49:04 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3509)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 3891)
+
+
+Started DELETE "/users/sign_out" for 119.228.127.58 at 2022-10-19 13:49:09 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to https://8286478a1db6463a9c99ee1f210f8a66.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 1856ms (ActiveRecord: 0.0ms | Allocations: 316686)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:49:11 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3519)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 3908)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:49:16 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3509)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 4889)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:49:20 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4503)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 13:49:21 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4495)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4885)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:49:24 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 4491)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 4879)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:56:10 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.5ms | Allocations: 240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 7907)
+Completed 200 OK in 46ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 10967)
+
+
+Started DELETE "/users/my_page" for 119.228.127.58 at 2022-10-19 13:56:12 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/users/my_page"):
+  
+Started DELETE "/users/my_page" for 119.228.127.58 at 2022-10-19 13:57:14 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/users/my_page"):
+  
+Started DELETE "/users/my_page" for 119.228.127.58 at 2022-10-19 13:57:49 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/users/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:58:29 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4097)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 5440)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:58:38 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3587)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 3915)
+
+
+Started DELETE "/users/my_page" for 119.228.127.58 at 2022-10-19 13:59:17 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/users/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 13:59:22 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3577)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 3966)
+
+
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 13:59:24 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:02:31 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:03:04 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 3549)
+Completed 200 OK in 26ms (Views: 25.7ms | Allocations: 4087)
+
+
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:03:06 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:06:06 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:06:26 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:06:30 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:06:37 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 6780)
+Completed 500 Internal Server Error in 23ms (Allocations: 7303)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `my_page_path' for #<ActionView::Base:0x000000065e0d48>):
+    24:                 <%#= link_to "釣果投稿", post_path, class: "btn btn-outline-dark" %>
+    25:               </li>
+    26:               <li class="mr-3">
+    27:                 <%= link_to "マイページ", my_page_path, method: :delete, class: "btn btn-outline-dark" %>
+    28:               </li>
+    29:               <li class="mr-3">
+    30:                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %>
+  
+app/views/layouts/application.html.erb:27
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:06:58 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3589)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 4126)
+
+
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:07:00 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:07:29 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:07:46 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3590)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 4129)
+
+
+Started DELETE "/my_page" for 119.228.127.58 at 2022-10-19 14:07:48 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [DELETE] "/my_page"):
+  
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:16:33 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 1.2ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 3950)
+Completed 200 OK in 71ms (Views: 64.5ms | Allocations: 5216)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:16:34 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 3558)
+Completed 200 OK in 37ms (Views: 36.4ms | Allocations: 3947)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:16:36 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 3641)
+Completed 200 OK in 26ms (Views: 23.4ms | Allocations: 4734)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:16:42 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3556)
+Completed 200 OK in 19ms (Views: 17.9ms | Allocations: 3945)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:16:47 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3629)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 4697)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:16:49 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 4541)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 4930)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:16:51 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3568)
+Completed 200 OK in 13ms (Views: 12.0ms | Allocations: 3957)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:17:15 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3952)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 5266)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:17:39 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3962)
+Completed 200 OK in 21ms (Views: 13.9ms | Allocations: 5283)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:17:45 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4619)
+Completed 200 OK in 20ms (Views: 19.0ms | Allocations: 5684)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:18:30 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3944)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 5172)
+
+
+Started GET "/my_page" for 119.228.127.58 at 2022-10-19 14:18:32 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#show as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3645)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 5709)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:18:34 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4525)
+Completed 200 OK in 16ms (Views: 15.9ms | Allocations: 4916)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:18:35 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 114)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4626)
+Completed 200 OK in 17ms (Views: 16.6ms | Allocations: 5716)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:22:25 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.3ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3986)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 5313)
+
+
+Started GET "/posts/new" for 119.228.127.58 at 2022-10-19 14:22:26 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4649)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 5739)
+
+
+Started GET "/posts" for 119.228.127.58 at 2022-10-19 14:22:29 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  Rendered posts/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4660)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 5152)
+
+
+Started GET "/" for 119.228.127.58 at 2022-10-19 14:22:30 +0000
+Cannot render console from 119.228.127.58! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomesController#top as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 4593)
+Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 4982)
+
+
